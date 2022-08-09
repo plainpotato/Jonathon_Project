@@ -1,1 +1,89 @@
-<p>portfolio-overview works!</p>
+<div fxLayout="column" class="portfolio">
+  <hr class="first-header-line" />
+  <hr class="second-header-line" />
+  <hr class="first-header-line" />
+  <hr class="third-header-line" />
+  <div class="header"></div>
+  <div
+    fxLayout="row"
+    fxLayoutAlign="center"
+    fxLayoutGap="20px"
+    class="navigation-bar"
+  >
+    <div class="navigation-bar-link">About Me</div>
+    <div class="navigation-bar-link">Education & Experience</div>
+    <div class="navigation-bar-link">Achievements</div>
+    <div class="navigation-bar-link">Awards and Skills</div>
+  </div>
+  <hr class="third-header-line" />
+  <hr class="first-header-line" />
+  <hr class="second-header-line" />
+  <hr class="first-header-line" />
+  <div fxLayout="row" fxLayoutAlign="center center" class="information">
+    <div
+      fxLayout="column"
+      class="set-title-position"
+      fxLayoutAlign="center start"
+    >
+      <div
+        fxLayout="column"
+        fxLayoutAlign="center start"
+        class="r-margin-left-200"
+      >
+        <h3 class="title-intro">HELLO I'M</h3>
+        <h1 class="title-name">JONATHON CHU</h1>
+        <h3 class="title-description">
+          Electronic and Computer Engineering Student.
+        </h3>
+      </div>
+    </div>
+    <div
+      fxLayout="column"
+      fxLayoutAlign="start center"
+      fxLayoutGap="30px"
+      class="information-panel"
+    >
+      <img
+        src="../../../assets/icons/profilepic.webp"
+        alt="mypicgoeshere"
+        class="profile"
+      />
+      <div class="title-panel">JONATHON.</div>
+      <div class="title-course">
+        <div class="set-line-spacing">Electronic and Computer</div>
+        <div class="set-line-spacing">Engineering, Ngee Ann</div>
+        <div>Polytechnic</div>
+      </div>
+      <a class="email-link">jonathon.zhexuan123<br />@gmail.com</a>
+      <div fxLayout="row" fxLayoutGap="30px">
+        <img
+          (click)="handleFacebook()"
+          class="handle-icon"
+          width="20px"
+          src="../../../assets/icons/facebook.png"
+        />
+        <img
+          (click)="handleTwitter()"
+          class="handle-icon"
+          width="20px"
+          src="../../../assets/icons/twitter.png"
+        />
+        <img
+          (click)="handleInstagram()"
+          class="handle-icon"
+          width="20px"
+          src="../../../assets/icons/insta.png"
+        />
+      </div>
+      <div fxLayout="row">
+        <button
+          class="download-resume"
+          fxFlex="200px"
+          (click)="downloadResume()"
+        >
+          Download CV
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

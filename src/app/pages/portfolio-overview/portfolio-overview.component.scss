@@ -1,0 +1,152 @@
+.portfolio {
+  max-width: 100;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-bottom: 4px solid black;
+  .header {
+    background: #302c2c;
+    height: 100%;
+  }
+  .navigation-bar {
+    background: #302c2c;
+    padding: 10px;
+  }
+  .navigation-bar-link {
+    color: #ddd;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    cursor: pointer;
+  }
+}
+
+.set-title-position {
+  background-image: url(../../../assets/icons/background-image.jpg);
+  color: white;
+  height: 800px;
+  width: auto;
+  position: relative;
+  flex: 3;
+  .title-name {
+    padding: 0;
+    margin: 0;
+    font-size: 80px;
+  }
+  .title-intro {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+  }
+  .title-description {
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+  }
+}
+
+.information-panel {
+  background-image: url(../../../assets/icons/navbar-background.jpg);
+  height: 800px;
+  color: #ddd;
+  flex: 1;
+  align-items: center;
+}
+
+.information {
+  padding: 0;
+  margin: 0;
+}
+
+.profile {
+  width: 140px;
+  height: 140px;
+  border-radius: 200px;
+  margin-top: 10px;
+}
+
+.title-panel {
+  font-size: 32px;
+  position: relative;
+  animation: OnLoad 2000ms;
+}
+
+.title-course {
+  font-size: 19px;
+  text-align: center;
+  max-width: 200px;
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  animation: OnLoad 2400ms;
+  .set-line-spacing {
+    margin-bottom: 5px;
+  }
+}
+
+.email-link {
+  color: #ddd;
+  cursor: pointer;
+  font-size: 19px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  position: relative;
+  animation: OnLoad 3s;
+}
+
+.email-link:hover {
+  color: #8ca8e0;
+}
+
+.download-resume {
+  padding: 20px 25px 20px 25px;
+  font-size: 20px;
+  color: #8ca8e0;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  position: relative;
+  animation: OnLoad 3600ms;
+}
+
+.handle-icon {
+  cursor: pointer;
+  position: relative;
+  animation: OnLoad 3200ms;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+.first-header-line {
+  height: 6px;
+  width: 100%;
+  background: #302c2c;
+  border: none;
+}
+
+.second-header-line {
+  height: 3px;
+  width: 100%;
+  background: #a0a09f;
+  border: none;
+}
+
+.third-header-line {
+  height: 1px;
+  width: 100%;
+  background: #4e586c;
+  border: none;
+}
+
+.r-margin-left-200 {
+  margin-left: 200px;
+}
+
+@keyframes OnLoad {
+  from {
+    left: -300px;
+  }
+  to {
+    left: 0;
+  }
+}
